@@ -27,7 +27,7 @@ h2,
 	display: block;
 	font-family: $font-lekton;
     //font-size: 1rem;
-		font-size: 2rem;
+		font-size: 1.7rem;
     font-weight: 400;
     letter-spacing: .2rem;
     line-height: 1;
@@ -46,6 +46,7 @@ h3,
 }
 
 p {
+	font-size: 2rem;
 	margin: 0;
 }
 
