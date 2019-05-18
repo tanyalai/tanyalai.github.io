@@ -43,6 +43,7 @@
 }
 
 .intro,
+.bodyCon,
 .projects {
 	padding: 0 0 5rem;
 }
@@ -56,6 +57,11 @@
 	}
 }
 
+.bodyCon{
+	p{
+		font-size: 2.1rem;
+	}
+}
 .projects-list {
 	@media (min-width: $breakpoint-small) {
 		margin-left: -1.5rem;
