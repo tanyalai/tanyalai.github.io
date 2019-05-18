@@ -47,20 +47,7 @@
 		<section class="projects">
 			<div class="container">
 				<h2>My Experience.</h2>
-				<ul class="experience-list">
-					{% for item in site.categories.experience reversed %}
-						<li>
-							<a href="{{ item.url | prepend: site.baseurl }}">
-								<div class="img-wrapper">
-									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
-								</div>
-								<span class="h2">{{ item.project.type }}</span>
-								<h3>{{ item.project.title }}</h3>
-								<h5>{{ item.project.role }}</h5>
-							</a>
-						</li>
-					{% endfor %}
-				</ul>
+
 			</div>
 		</section>
 
