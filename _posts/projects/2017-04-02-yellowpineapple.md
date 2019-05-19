@@ -15,6 +15,7 @@ project:
   tech: "HTML, CSS, Boostrap, Sass, JavaScript, jQuery, Jekyll"
 
 agency:
+  team: ""
   title: "Yellow Pineapple Co"
   url: "https://github.com/arnolds/pineapple"
   year: "2017, 2018"
