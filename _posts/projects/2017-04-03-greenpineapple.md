@@ -9,6 +9,7 @@ meta:
 project:
   title: "Green Pineapple"
   type: "Jekyll"
+  role: "Designer"
   url: "https://github.com/arnolds/pineapple"
   logo: "/assets/images/projects/greenpineapple/logo.png"
   tech: "HTML, CSS, Boostrap, Sass, JavaScript, jQuery, Jekyll"
