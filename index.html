@@ -60,7 +60,7 @@
 
 					{% for item in site.categories.projects reversed %}
 
-					{% if forloop.index < 4}
+					{% if forloop.index < 4 %}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}">
 								<div class="img-wrapper">
@@ -72,8 +72,7 @@
 						</li>
 					{% endif %}
 
-					{% assign i = 0 %}
-					
+
 					{% endfor %}
 
 				</ul>
