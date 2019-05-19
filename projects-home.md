@@ -12,7 +12,7 @@ permalink: /projects/
 </head>
 <body>
 	{% include header.html %}
-  <main class="content" style="padding: 0.5 rem 0 0">
+  <main class="contentr">
 
     <section class="projects">
 			<div class="container">
