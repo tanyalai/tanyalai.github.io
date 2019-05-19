@@ -1,5 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
 <head>
 	<title>{{ site.author }} / {{ page.project.title }}</title>
 	<meta name="author" content="{{ site.author }}">
@@ -29,7 +32,7 @@
 					{% endfor %}
 
 				</ul>
-        
+
         <br>
 
         <h2>My Curriculum Project Exercises.</h2>
