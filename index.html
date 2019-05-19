@@ -59,6 +59,7 @@
 				<ul class="projects-list">
 
 					{% for item in site.categories.projects reversed %}
+
 					{% if forloop.index < 4}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}">
@@ -71,6 +72,8 @@
 						</li>
 					{% endif %}
 
+					{% assign i = 0 %}
+					
 					{% endfor %}
 
 				</ul>
