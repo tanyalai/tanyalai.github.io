@@ -58,4 +58,3 @@ permalink: /projects/
   </main>
   {% include footer.html %}
 </body>
-</html>
