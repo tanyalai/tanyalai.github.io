@@ -60,7 +60,7 @@
 
 					{% for item in site.categories.projects reversed %}
 
-					{% if forloop.index < 4 %}
+					{% if forloop.index < 7 %}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}">
 								<div class="img-wrapper">
@@ -74,8 +74,8 @@
 
 
 					{% endfor %}
-
 				</ul>
+				<h3 style="font-family: Poppins-Light"><a href="/_layouts/projects-home.html">More Projects...</a></h3>
 			</div>
 		</section>
 
