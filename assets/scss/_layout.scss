@@ -43,23 +43,23 @@
 				font-size:1.35em;
 				text-align: center;
 			}
-			#nav.js {
+	#nav.js {
 				display: none;
 			}
-			ul {
+	ul {
 				width:100%;
 			}
-			li {
+	li {
 				width:100%;
 				border-right:none;
 			}
 }
 
-@media screen and (min-width: 768px) {
+//@media screen and (min-width: 768px) {
 	#menu {
 		display: none;
 	}
-}
+//}
 
 .content {
 	background: $color-white;
