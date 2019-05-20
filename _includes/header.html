@@ -16,16 +16,17 @@
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script type="text/javascript">
-			$("#nav").addClass("js").before('<div id="menu">&#9776;</div>');
+		$("#nav").addClass("js").before('<div id="menu"></div>');
 		$("#menu").click(function(){
-		$("#nav").toggle();
-			});
+				$("#nav").toggle();
+		});
 		$(window).resize(function(){
 		if(window.innerWidth > 768) {
 			$("#nav").removeAttr("style");
 		}
 		});
 		</script>
+
 		</div>
 
 
