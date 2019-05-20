@@ -27,11 +27,15 @@
 		@extend .logo;
 	}
 
+}
+
+.rnav{
 	li {
 		display: inline;
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 		font-family: Poppins-Light;
 		text-align: center;
+		padding: 0 0.7rem 0 0.7rem;
 	}
 }
 
