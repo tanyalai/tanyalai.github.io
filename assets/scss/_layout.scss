@@ -11,6 +11,7 @@
 	padding: 3rem 0;
 }
 
+
 .logo {
 	float: left;
 	font-size: 1.8rem;
@@ -24,6 +25,12 @@
 
 	a {
 		@extend .logo;
+	}
+	font-size: 1.8rem;
+	font-family: Poppins-Light;
+	text-align: center;
+	li {
+		display: inline;
 	}
 }
 
