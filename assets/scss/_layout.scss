@@ -34,6 +34,19 @@
 		padding: 0 1rem 0 1rem;
 }
 
+.mobile{
+	display:none;
+}
+
+@media (min-width: 768px){
+	.web{
+		display: none;
+	}
+	.mobile{
+		display: inline;
+	}
+}
+
 .content {
 	background: $color-white;
 	padding: 7rem 0 0;
