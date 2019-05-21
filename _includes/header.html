@@ -9,29 +9,43 @@
 		<div class="web">
 		<ul id="nav" style="float:right!important; font-size: 1.5rem; font-family: Poppins-Light;text-align: center;">
 			<li class="rnav"><a href="tanyalai.github.io">Home</a></li>
-			<li class="rnav"><a href="">Resume</a></li>
+			<li class="rnav"><a href="">Resumé</a></li>
 			<li class="rnav"><a href="tanyalai.github.io/projects/">Projects</a></li>
 			<li style="display: inline; padding: 0 1rem 0 0;"><a href="">About</a></li>
 		</ul>
-		<div id="menu">
-		<div>☰</div>
-		</div>
-
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript">
-		$("#nav").addClass("js").before('<div id="menu">☰</div>');
-		$("#menu").click(function(){
-				$("#nav").toggle();
-		});
-		$(window).resize(function(){
-		if(window.innerWidth > 768) {
-			$("#nav").removeAttr("style");
-		}
-		});
-		</script>
 
 		</div>
 
+		<div class="menu">
+
+			<button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+	    aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+	    <div class="animated-icon1"><span></span><span></span><span></span></div>
+	  	</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent20">
+
+			 <!-- Links -->
+			 <ul class="navbar-nav mr-auto">
+
+				 <li class="nav-item active">
+					 <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+				 </li>
+				 <li class="nav-item">
+					 <a class="nav-link" href="#">Resumé</a>
+				 </li>
+				 <li class="nav-item">
+					 <a class="nav-link" href="#">Projects</a>
+				 </li>
+				 <li class="nav-item">
+					 <a class="nav-link" href="#">About</a>
+				 </li>
+				 
+			 </ul>
+			 <!-- Links -->
+
+		 </div>
+		 <!-- Collapsible content -->
+		</div>
 
 		</nav>
 	</div>
