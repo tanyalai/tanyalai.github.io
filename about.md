@@ -28,10 +28,11 @@ permalink: /about/
 		<ul style="font-family: Poppins-Light; font-size: 1.7rem">
 
 			<li>I love performing music, particularly playing the double bass in orchestral and small ensemble settings</li>
-			<li><span class="h6" style="color:#aaa; text-indent: 1.4rem;">I have played with the Michigan Pops Orchestra for two semesters</span></li>
-			<li><span class="h6" style="color:#aaa; text-indent: 1.4rem;">I used to play in AMIS (Association for Music in International Schools) Orchestra for three years of high school</span></li>
-			<li><span class="h6" style="color:#aaa; text-indent: 1.4rem;">I used to play in APAC (Asia Pacific Activities Conference) Orchestra for all four years of high school</span></li>
-			<li><span class="h6" style="color:#aaa; text-indent: 1.4rem;">I've performed in four pit orchestras as a double bassist and a bass guitarist for the following musical productions: Once Upon a Mattress, Addams Family, Oklahoma, Curtains</span></li>
+
+			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I have played with the Michigan Pops Orchestra for two semesters</li>
+			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I used to play in AMIS (Association for Music in International Schools) Orchestra for three years of high school</li>
+			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I used to play in APAC (Asia Pacific Activities Conference) Orchestra for all four years of high school</li>
+			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I've performed in four pit orchestras as a double bassist and a bass guitarist for the following musical productions: Once Upon a Mattress, Addams Family, Oklahoma, Curtains</li>
 
 			<li>I'm obsessed with stationery. Currently, I'm enjoying the company of my trusty Uni Kuru Toga Mechanical Pencil with a self-sharpening, auto-rotating lead function</li>
 
