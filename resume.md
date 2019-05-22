@@ -1,13 +1,10 @@
 ---
 title: "Tanya Lai's Resumé"
-description: Tanya Lai's Resume
+description: Tanya Lai's Resumé
 date: 2019-05-23
 layout: pdf
 categories: resume
 permalink: /resume/
 ---
 
-<iframe src="https://github.com/tanyalai/resume/raw/master/Tanya%20Lai%20Resume%20File%203:19.pdf" width="100%" height="100%"></iframe>
-<!--
-if height doesn't work, try 800em
--->
+<iframe src="https://drive.google.com/file/d/1LekW7MkGrc0PxsvitmfaY3grpmoh31Dk/view?usp=sharing" width="100%" height="800em"></iframe>
