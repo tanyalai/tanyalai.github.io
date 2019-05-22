@@ -417,6 +417,9 @@
 .Navbar__Link-toggle {
   display: none;
 }
+.hozline{
+	display: none;
+}
 
 @media screen and (max-width: 768px) {
   .Navbar__Items,
@@ -426,12 +429,19 @@
 .Navbar__Items {
     display:none;
   }
+.hozline{
+	display: flex;
+	margin: auto;
+	width: 100%;
+	border-top: 2px solid black;
+	padding: 1.3rem 0 0 0;
+}
 .Navbar__Items--right {
 		//edit the menu attachment from the left and right here!
     margin-left:auto;
 		margin-right: auto;
 		font-size: 1.35rem;
-		padding: 2rem 0;
+		padding: 2rem 0 0 0;
   }
 
 .Navbar__ToggleShow {
