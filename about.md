@@ -29,13 +29,16 @@ permalink: /about/
 
 			<li>I love performing music, particularly playing the double bass in orchestral and small ensemble settings</li>
 
-			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I have played with the Michigan Pops Orchestra for two semesters<br></li>
-			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I used to play in AMIS (Association for Music in International Schools) Orchestra for three years of high school<br></li>
-			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I used to play in APAC (Asia Pacific Activities Conference) Orchestra for all four years of high school<br></li>
-			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I've performed in four pit orchestras as a double bassist and a bass guitarist for the following musical productions: Once Upon a Mattress, Addams Family, Oklahoma, Curtains<br></li>
-
-			<li>I'm obsessed with stationery. Currently, I'm enjoying the company of my trusty Uni Kuru Toga Mechanical Pencil with a self-sharpening, auto-rotating lead function<br></li>
-
+			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I have played with the Michigan Pops Orchestra for two semesters</li>
+			<br>
+			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I used to play in AMIS (Association for Music in International Schools) Orchestra for three years of high school</li>
+			<br>
+			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I used to play in APAC (Asia Pacific Activities Conference) Orchestra for all four years of high school</li>
+			<br>
+			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I've performed in four pit orchestras as a double bassist and a bass guitarist for the following musical productions: Once Upon a Mattress, Addams Family, Oklahoma, Curtains</li>
+			<br>
+			<li>I'm obsessed with stationery. Currently, I'm enjoying the company of my trusty Uni Kuru Toga Mechanical Pencil with a self-sharpening, auto-rotating lead function</li>
+			<br>
 			<li>I enjoy playing rpg, simulation, and puzzle games, such as the Pokémon series and Puzzles and Dragons. My primary platform is my iPhone–I have over 330 apps and 65% to 75% are games</li>
 		</ul>
 		<br>
