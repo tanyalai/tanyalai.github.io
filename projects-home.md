@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 <head>
-	<title>{{ site.author }} / {{ page.project.title }}</title>
+	<title>{{ site.author }} / {{ site.project }}</title>
 	<meta name="author" content="{{ site.author }}">
 	<meta name="description" content="{{ page.content | strip_html | strip_newlines }}">
 	<meta name="keywords" content="{{ page.meta.keywords }}">
