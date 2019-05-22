@@ -417,6 +417,7 @@
 .Navbar__Link-toggle {
   display: none;
 }
+
 @media screen and (max-width: 768px) {
   .Navbar__Items,
   .Navbar {
@@ -426,7 +427,9 @@
     display:none;
   }
 .Navbar__Items--right {
-    margin-left:auto; //edit the menu attachment from the left here!
+		//edit the menu attachment from the left and right here!
+    margin-left:auto;
+		margin-right: auto;
 		font-size: 1.35rem;
   }
 
