@@ -9,6 +9,7 @@ twitter: ""
 github: "https://github.com/tanyalai"
 project: "projects"
 res: "resumé"
+ab: "about me"
 
 # Site config
 baseurl: ""
