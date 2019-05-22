@@ -426,8 +426,10 @@
     display:none;
   }
 .Navbar__Items--right {
-    margin-left:0;
+    margin-left:auto; //edit the menu attachment from the left here!
+		font-size: 1.35rem;
   }
+
 .Navbar__ToggleShow {
     display: flex;
   }
@@ -440,8 +442,7 @@
 }
 
 .bars{
- width: 35px;
- height: 5px;
+ width: 30px;
+ height: 2px;
  background-color: black;
- margin: 6px 0;
 }
