@@ -17,22 +17,15 @@
 	</style>
 
 	<script>
-			$(document).ready(function () {
+	function classToggle() {
+			const navs = document.querySelectorAll('.Navbar__Items')
 
-		  $('.first-button').on('click', function () {
-
-		    $('.animated-icon1').toggleClass('open');
-		  });
-		  $('.second-button').on('click', function () {
-
-		    $('.animated-icon2').toggleClass('open');
-		  });
-		  $('.third-button').on('click', function () {
-
-		    $('.animated-icon3').toggleClass('open');
-		  });
-		});
+			navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+			}
+			document.querySelector('.Navbar__Link-toggle')
+			.addEventListener('click', classToggle);
 	</script>
+
 </head>
 <body>
 	{% include header.html %}
@@ -48,7 +41,7 @@
 
 		<section class="bodyCon">
 			<div class="container">
-				<h2>My Resume.</h2>
+				<h2>My Resumé.</h2>
 				<p style="font-family: Poppins-Light;"> Download my resumé <a href="https://drive.google.com/file/d/1LekW7MkGrc0PxsvitmfaY3grpmoh31Dk/view?usp=sharing" style="text-decoration: underline; color: #6D98BA">here</a></p>
 			</div>
 		</section>

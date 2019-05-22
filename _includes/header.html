@@ -1,14 +1,17 @@
 <header class="header">
 	<div class="container">
+		<!--
 		<nav class="navi">
+
 
 		<h1 class="logo web" style="display: inline;">
 			<a title="{{ site.author }}" href="{{ site.baseurl | append: "/" }}"><span style="font-family: Poppins;">{{ site.author }}</span></a>
 		</h1>
 
 		<div class="web">
+
 		<ul id="nav" style="float:right!important; font-size: 1.5rem; font-family: Poppins-Light;text-align: center;">
-			<li class="rnav"><a href="tanyalai.github.io">Home</a></li>
+			<li class="rnav"><a href="https://tanyalai.github.io/">Home</a></li>
 			<li class="rnav"><a href="">Resumé</a></li>
 			<li class="rnav"><a href="tanyalai.github.io/projects/">Projects</a></li>
 			<li style="display: inline; padding: 0 1rem 0 0;"><a href="">About</a></li>
@@ -17,43 +20,37 @@
 		</div>
 
 		<div class="menu">
-					<nav class="navbar navbar-dark  indigo darken-2">
-
-		  <!-- Navbar brand -->
-		  <a class="logo" href="#">Tanya Lai</a>
-
-		  <!-- Collapse button -->
-		  <button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22"
-		    aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
-		    <div class="animated-icon3"><span></span><span></span><span></span></div>
-		  </button>
-
-		  <!-- Collapsible content -->
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent22">
-
-		    <!-- Links -->
-		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">Features</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">Pricing</a>
-		      </li>
-		    </ul>
-		    <!-- Links -->
-
-		  </div>
-		  <!-- Collapsible content -->
-
-</nav>
-<!--/.Navbar-->
 
 		</div>
 
 		</nav>
+		-->
+			<div class="Navbar">
+	   <div class="Navbar__Link Navbar__Link-brand">
+			 <h1 class="logo web" style="display: inline;">
+				 <a title="{{ site.author }}" href="{{ site.baseurl | append: "/" }}"><span style="font-family: Poppins;">{{ site.author }}</span></a>
+			 </h1>
+	    </div>
+	    <div class="Navbar__Link Navbar__Link-toggle">
+	      <i class="fas fa-bars"></i>
+	    </div>
+	  <nav class="Navbar__Items">
+	  </nav>
+	  <nav class="Navbar__Items Navbar__Items--right">
+			<div class="Navbar__Link rnav">
+	      <a href="https://tanyalai.github.io/">Home</a>
+	    </div>
+	    <div class="Navbar__Link rnav">
+	      <a href="">Resumé</a>
+	    </div>
+	    <div class="Navbar__Link rnav">
+	      <a href="tanyalai.github.io/projects/">Projects</a>
+	    </div>
+	    <div class="Navbar__Link" style="padding: 0 1rem 0 0;">
+	      <a href="">About</a>
+	    </div>
+	  </nav>
+	</div>
 	</div>
 
 </header>
