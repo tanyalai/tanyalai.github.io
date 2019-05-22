@@ -42,15 +42,6 @@
 	display:none;
 }
 
-@media screen and (max-width: 768px){
-	.web{
-		display: none;
-	}
-	.menu{
-		display: inline;
-	}
-}
-
 
 .content {
 	background: $color-white;
@@ -439,6 +430,9 @@
 	left: 15%; //(100-width)/2
 	margin-left:auto;
 	margin-right:auto;
+}
+.padder{
+	padding: 1.2rem 1rem 0 1rem;
 }
 .Navbar__Items--right {
 		//edit the menu attachment from the left and right here!
