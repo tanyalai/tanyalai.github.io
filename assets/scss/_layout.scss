@@ -431,8 +431,10 @@
   }
 .hozline{
 	display: flex;
-	margin: 0;
-	padding: 0 2rem;
+	border: 1px solid black;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .Navbar__Items--right {
 		//edit the menu attachment from the left and right here!
