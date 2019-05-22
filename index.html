@@ -16,19 +16,10 @@
 
 	</style>
 
-	<script>
-	function classToggle() {
-			const navs = document.querySelectorAll('.Navbar__Items')
-
-			navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
-			}
-			document.querySelector('.Navbar__Link-toggle')
-			.addEventListener('click', classToggle);
-	</script>
-
 </head>
 <body>
 	{% include header.html %}
+	<script src="{{ "/assets/scripts/toggle.js" | prepend: site.baseurl }}"></script>
 	<main class="content">
 
 		<section class="intro">
