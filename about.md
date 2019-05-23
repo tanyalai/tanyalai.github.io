@@ -15,7 +15,7 @@ permalink: /about/
   <main class="content">
 
 		<div class="container">
-			<img src="/assets/images/tanya.JPG" alt="Picture of Tanya in Shanghai" class="scale"/>
+			<img class="aboutw" src="/assets/images/tanya.JPG" alt="Picture of Tanya in Shanghai"/>
 			<br>
 
 			<h2>About Me.</h2>
