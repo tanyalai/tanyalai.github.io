@@ -465,5 +465,10 @@
 }
 
 .scale{
-	max-width: 66.66666%;
+	@media (max-width: $breakpoint-medium) {
+			max-width: 66.66666%;
+	}
+	@media (min-width: $breakpoint-medium){
+		width: 45%;
+	}
 }
