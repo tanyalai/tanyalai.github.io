@@ -14,7 +14,7 @@ permalink: /about/
 	{% include header.html %}
   <main class="content">
 
-		<div class="container">
+		<div class="container" style="max-width: 66.66666%">
 			<h2>About Me.</h2>
 			<p style="font-family: Poppins-Light;"> My name is Tanya Lai and I'm a rising sophomore studying computer science and engineering at the University of Michigan, Ann Arbor. On campus, I'm the librarian and a double bassist for the Michigan Pops Orchestra, and a research assistant in IVF Patient Experience (UI/HCI) in the M-Interact Lab. I'm currently preparing to audition for an additional orchestra this fall and to explore more clubs available.</p>
 			<br>
@@ -22,7 +22,7 @@ permalink: /about/
 			<br>
 		</div>
 
-		<div class="container">
+		<div class="container" style="max-width: 66.66666%>
 		<h2>Fun Facts.</h2>
 
 		<ul style="font-family: Poppins-Light;" type="disc">
