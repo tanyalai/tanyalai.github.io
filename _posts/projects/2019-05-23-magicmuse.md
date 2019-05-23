@@ -4,21 +4,21 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "Jekyll, Pineapple"
+  keywords: "ENGR100, Magic Muse, Microprocessor, toy, Assembly, Verilog"
 
 project:
-  title: "Red Pineapple"
+  title: "Magic Muse"
   type: "Jekyll"
-  role: "Designer"
-  url: "https://github.com/arnolds/pineapple"
+  role: "Developer"
+  url: "n"
   logo: "/assets/images/projects/redpineapple/logo.png"
-  tech: "HTML, CSS, Boostrap, Sass, JavaScript, jQuery, Jekyll"
+  tech: "Assembly, Verilog, MATLAB"
 
 agency:
-  team: "y"
-  title: "Red Pineapple Co"
-  url: "https://github.com/arnolds/pineapple"
-  year: "2017"
+  team: "The Backstreet Toys: Tanya Lai, Raymond Liu, Alexandra Stavrakos, Anthony Zhu"
+  title: "Magic Muse"
+  url: "n"
+  year: "2019"
 
 images:
   - image:

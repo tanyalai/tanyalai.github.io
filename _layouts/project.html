@@ -15,9 +15,13 @@
 				<article>
 
 					<span class="h2">Project Title</span>
-					<h1>
-						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow" style="font-family: Poppins">{{ page.project.title }}</a>
-					</h1>
+
+						{% if page.project.url == "n" %}
+						<h1 style="font-family: Poppins">{{ page.project.title }}</h1>
+						{% else %}
+						<h1><a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow" style="font-family: Poppins">{{ page.project.title }}</a></h1>
+						{% endif %}
+
 
 					{% if page.agency.team != "" %}
 					<span class="h2">Team</span>
@@ -25,7 +29,12 @@
 					<br>
 					{% endif %}
 
+
+					{% if page.agency.url =="n" %}
+					<p style="font-family: Poppins-Light">{{ page.agency.title }}</p>
+					{% else %}
 					<p style="font-family: Poppins-Light"><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{ page.agency.title }}</a></p>
+					{% endif %}
 
 					<span class="h2">Role</span>
 					<p style="font-family: Poppins-Light">{{page.project.role}}</p>
