@@ -12,6 +12,7 @@ permalink: /projects/
 </head>
 <body>
 	{% include header.html %}
+	<script src="{{ "/assets/scripts/toggle.js" | prepend: site.baseurl }}"></script>
   <main class="content">
 
     <section class="projects">
