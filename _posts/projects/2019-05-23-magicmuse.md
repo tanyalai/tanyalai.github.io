@@ -8,7 +8,7 @@ meta:
 
 project:
   title: "Magic Muse"
-  type: "Microprocessor-based Toy"
+  type: "Microprocessor Toy"
   role: "Developer"
   url: "n"
   logo: "/assets/images/projects/redpineapple/logo.png"

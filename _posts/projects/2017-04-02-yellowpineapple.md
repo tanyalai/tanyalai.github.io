@@ -11,7 +11,7 @@ project:
   type: "iOS App"
   role: "Project Coordinator, UI Designer, and iOS Developer"
   url: "https://itunes.apple.com/us/app/cissmun/id1323501359?mt=8"
-  logo: "/assets/images/projects/cissmun.jpg"
+  logo: "/assets/images/projects/cissmun/cissmun.jpg"
   tech: "Adobe Photoshop, Swift"
 
 agency:
@@ -22,13 +22,13 @@ agency:
 
 images:
   - image:
-    url: "/assets/images/projects/yellowpineapple/devices.jpg"
+    url: "/assets/images/projects/cissmun/home.jpg"
     alt: "Yellow Pineapple website on tablet, mobile and desktop"
   - image:
-    url: "/assets/images/projects/yellowpineapple/desktop.jpg"
+    url: "/assets/images/projects/cissmun/conf.jpg"
     alt: "Yellow Pineapple website on a desktop device"
   - image:
-    url: "/assets/images/projects/yellowpineapple/mobile.jpg"
+    url: "/assets/images/projects/cissmun/sh.jpg"
     alt: "Yellow Pineapple website on a mobile device"
 ---
 <p>The pineapple is a herbaceous perennial, which grows to 1.0 to 1.5 m (3.3 to 4.9 ft) tall, although sometimes it can be taller. The plant takes almost three years to reach maturation. It can fruit a total of three times during its lifetime.</p>
