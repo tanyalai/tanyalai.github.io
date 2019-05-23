@@ -14,7 +14,7 @@ permalink: /about/
 	{% include header.html %}
   <main class="content">
 
-		<div class="container">
+		<div class="container aboutw">
 			<img src="/assets/images/tanya.JPG" alt="Picture of Tanya in Shanghai" class="scale"/>
 			<br>
 
@@ -25,7 +25,7 @@ permalink: /about/
 			<br>
 		</div>
 
-		<div class="container" >
+		<div class="container aboutw">
 		<h2>Fun Facts.</h2>
 
 		<ul style="font-family: Poppins-Light;" type="disc" >
