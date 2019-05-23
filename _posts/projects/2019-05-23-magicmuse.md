@@ -8,7 +8,7 @@ meta:
 
 project:
   title: "Magic Muse"
-  type: "Jekyll"
+  type: "Microprocessor-based Toy"
   role: "Developer"
   url: "n"
   logo: "/assets/images/projects/redpineapple/logo.png"

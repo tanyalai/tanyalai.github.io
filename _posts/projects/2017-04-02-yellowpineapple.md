@@ -4,20 +4,20 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "Jekyll, Pineapple"
+  keywords: "CISSMUN, GINAsia, iOS, App"
 
 project:
-  title: "Yellow Pineapple"
-  type: "Jekyll"
-  role: "Designer"
-  url: "https://github.com/arnolds/pineapple"
-  logo: "/assets/images/projects/yellowpineapple/logo.png"
-  tech: "HTML, CSS, Boostrap, Sass, JavaScript, jQuery, Jekyll"
+  title: "CISSMUN/GINAsia App"
+  type: "iOS App"
+  role: "Project Coordinator, UI Designer, and iOS Developer"
+  url: "https://itunes.apple.com/us/app/cissmun/id1323501359?mt=8"
+  logo: "/assets/images/projects/cissmun.jpg"
+  tech: "Adobe Photoshop, Swift"
 
 agency:
-  team: ""
-  title: "Yellow Pineapple Co"
-  url: "https://github.com/arnolds/pineapple"
+  team: "Edward Huang, Tanya Lai, Stanley Liu"
+  title: "iOS Development Team"
+  url: "n"
   year: "2017, 2018"
 
 images:
