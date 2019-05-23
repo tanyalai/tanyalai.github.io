@@ -25,7 +25,7 @@ permalink: /about/
 		<div class="container">
 		<h2>Fun Facts.</h2>
 
-		<ul style="font-family: Poppins-Light;">
+		<ul style="font-family: Poppins-Light;" type="disc">
 
 			<li>I love performing music, particularly playing the double bass in orchestral and small ensemble settings. I've performed with the Michigan Pops Orchestra, AMIS Orchestra (Association for Music in International Schools), APAC Orchestra (Asia Pacific Activities Conference), and in the pit orchestra my high school musicals (Once Upon a Mattress, Addams Family, Oklahoma, and Curtains). </li>
 
