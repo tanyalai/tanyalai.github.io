@@ -25,17 +25,10 @@ permalink: /about/
 		<div class="container">
 		<h2>Fun Facts.</h2>
 
-		<ul style="font-family: Poppins-Light; font-size: 1.7rem">
+		<ul style="font-family: Poppins-Light;">
 
-			<li>I love performing music, particularly playing the double bass in orchestral and small ensemble settings</li>
+			<li>I love performing music, particularly playing the double bass in orchestral and small ensemble settings. I've performed with the Michigan Pops Orchestra, AMIS Orchestra (Association for Music in International Schools), APAC Orchestra (Asia Pacific Activities Conference), and in the pit orchestra my high school musicals (Once Upon a Mattress, Addams Family, Oklahoma, and Curtains). </li>
 
-			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I have played with the Michigan Pops Orchestra for two semesters</li>
-			<br>
-			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I used to play in AMIS (Association for Music in International Schools) Orchestra for three years of high school</li>
-			<br>
-			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I used to play in APAC (Asia Pacific Activities Conference) Orchestra for all four years of high school</li>
-			<br>
-			<li class="h6" style="color:#aaa; text-indent: 1.4rem; font-family: Poppins-Light">| I've performed in four pit orchestras as a double bassist and a bass guitarist for the following musical productions: Once Upon a Mattress, Addams Family, Oklahoma, Curtains</li>
 			<br>
 			<li>I'm obsessed with stationery. Currently, I'm enjoying the company of my trusty Uni Kuru Toga Mechanical Pencil with a self-sharpening, auto-rotating lead function</li>
 			<br>
