@@ -74,6 +74,16 @@
 	}
 }
 
+.aboutw{
+	@media (min-width: $breakpoint-medium) {
+		p {
+			max-width: 66.66666%;
+		}
+		ul{
+			max-width: 66.66666%;
+		}
+	}
+}
 
 .projects-list {
 	@media (min-width: $breakpoint-small) {
@@ -457,4 +467,8 @@
  width: 30px;
  height: 2px;
  background-color: black;
+}
+
+.scale{
+	width: 400px;
 }
