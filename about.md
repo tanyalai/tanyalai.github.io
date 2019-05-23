@@ -31,7 +31,7 @@ permalink: /about/
 
 		<ul style="font-family: Poppins-Light;" type="disc" class="aboutw">
 
-			<li>I love performing music, particularly playing the double bass in orchestral and small ensemble settings. I've performed with the Michigan Pops Orchestra, AMIS Orchestra (Association for Music in International Schools), APAC Orchestra (Asia Pacific Activities Conference), and in the pit orchestra my high school musicals (Once Upon a Mattress, Addams Family, Oklahoma, and Curtains). </li>
+			<li>I love performing music, particularly playing the double bass in orchestral and small ensemble settings. I've performed with the Michigan Pops Orchestra, AMIS Orchestra (Association for Music in International Schools), APAC Orchestra (Asia Pacific Activities Conference), and in the pit orchestra for my high school's musicals (Once Upon a Mattress, Addams Family, Oklahoma, and Curtains). </li>
 
 			<br>
 			<li>I'm obsessed with stationery. Currently, I'm enjoying the company of my trusty Uni Kuru Toga Mechanical Pencil with a self-sharpening, auto-rotating lead function</li>
