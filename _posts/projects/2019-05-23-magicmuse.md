@@ -2,6 +2,7 @@
 layout: project
 permalink: /:title/
 category: projects
+tags: projects
 
 meta:
   keywords: "ENGR100, Magic Muse, Microprocessor, toy, Assembly, Verilog"
