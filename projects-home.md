@@ -20,7 +20,7 @@ permalink: /projects/
 				<h2>My Projects.</h2>
 				<ul class="projects-list">
 
-					{% for item in site.categories.projects reversed %}
+					{% for item in site.tags.class reversed %}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}">
 								<div class="img-wrapper">
