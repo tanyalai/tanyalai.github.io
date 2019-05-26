@@ -4,7 +4,7 @@ permalink: /:title/
 category: class
 
 meta:
-  keywords: "Jekyll, Pineapple"
+  keywords: "EECS 280, Euchre, 280, Courses, Class"
 
 project:
   title: "Aqua Pineapple"

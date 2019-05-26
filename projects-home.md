@@ -36,7 +36,7 @@ permalink: /projects/
 
         <br>
 
-        <h2>My Curriculum Project Exercises.</h2>
+        <h2>My Standard Course Projects.</h2>
 				<ul class="projects-list">
 
 					{% for item in site.categories.class reversed %}
