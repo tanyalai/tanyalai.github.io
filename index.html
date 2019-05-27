@@ -59,7 +59,7 @@
 				<h2>My Projects.</h2>
 				<ul class="projects-list">
 
-					{% for item in site.categories.projects %}
+					{% for item in site.categories.projects reversed %}
 
 					{% if forloop.index < 7 %}
 						<li>

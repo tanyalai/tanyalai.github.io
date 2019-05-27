@@ -20,7 +20,7 @@ permalink: /projects/
 				<h2>My Projects.</h2>
 				<ul class="projects-list">
 
-					{% for item in site.tags.projects %}
+					{% for item in site.tags.projects reversed %}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}">
 								<div class="img-wrapper">
@@ -39,7 +39,7 @@ permalink: /projects/
         <h2>My Standard Course Projects.</h2>
 				<ul class="projects-list">
 
-					{% for item in site.tags.class %}
+					{% for item in site.tags.class reversed %}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}">
 								<div class="img-wrapper">
