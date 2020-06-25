@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: 
 title: Projects
 permalink: /projects/
 ---
@@ -14,13 +14,11 @@ permalink: /projects/
 	{% include header.html %}
 	<script src="{{ "/assets/scripts/toggle.js" | prepend: site.baseurl }}"></script>
   <main class="content">
-
     <section class="projects">
 			<div class="container">
 				<h2>My Projects.</h2>
 				<ul class="projects-list">
-
-					{% for item in site.tags.projects reversed %}
+					{% for item in site.tags.projects%}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}">
 								<div class="img-wrapper">
@@ -31,14 +29,10 @@ permalink: /projects/
 							</a>
 						</li>
 					{% endfor %}
-
 				</ul>
-
         <br>
-
         <h2>My Standard Course Projects.</h2>
 				<ul class="projects-list">
-
 					{% for item in site.tags.class reversed %}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}">
@@ -50,9 +44,7 @@ permalink: /projects/
 							</a>
 						</li>
 					{% endfor %}
-
 				</ul>
-
 			</div>
 		</section>
 
