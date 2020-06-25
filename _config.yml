@@ -10,6 +10,7 @@ github: "https://github.com/tanyalai"
 project: "projects"
 res: "resumé"
 ab: "about me"
+course: "courses"
 
 # Site config
 baseurl: ""
