@@ -14,7 +14,13 @@ permalink: /projects/
 	{% include header.html %}
 	<script src="{{ "/assets/scripts/toggle.js" | prepend: site.baseurl }}"></script>
   <main class="content">
-    <section class="projects">
+	<section class="bodyCon">
+		<div class="container">
+			<p style="font-family: Poppins-Light;">Due to the University of Michigan's honor code, I cannot publicize my code for course projects. Please email me at <a href="mailto:tanyalai@umich.edu" style="text-decoration: underline" target="_blank">tanyalai@umich.edu</a> and provide context to request access.</p>
+			<br>
+		</div>
+	</section> 
+	<section class="projects">
 			<div class="container">
 				<h2>My Projects.</h2>
 				<ul class="projects-list">

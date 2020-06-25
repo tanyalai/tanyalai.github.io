@@ -20,7 +20,7 @@ permalink: /about/
 			<br>
 
 			<h2>About Me.</h2>
-			<p style="font-family: Poppins-Light;" class="aboutw"> My name is Tanya Lai and I'm a rising sophomore studying computer science and engineering at the University of Michigan, Ann Arbor. On campus, I'm the librarian and a double bassist for the Michigan Pops Orchestra, and a research assistant in IVF Patient Experience (UI/HCI) in the M-Interact Lab. I'm currently preparing to audition for an additional orchestra this fall and to explore more clubs available.</p>
+			<p style="font-family: Poppins-Light;" class="aboutw"> My name is Tanya Lai and I'm a rising junior studying computer science and engineering at the University of Michigan, Ann Arbor. On campus, I'm the librarian and a double bassist for the Michigan Pops Orchestra, a grader for EECS 183, a software team member for GoodKnight in MedLaunch, and helping to develop a spatial audio platform for a research lab.</p>
 			<br>
 			<p style="font-family: Poppins-Light;" class="aboutw">I'm a third-culture kid who is a Canada, Hong Kong, and Singapore citizen. I was born in Hong Kong to a Canadian/Hong Kong father and a Singaporean mother. Soon after, I moved to Midland, Michigan when I was 6, moved to Shanghai, China when I was 10, and currently reside in Ann Arbor, Michigan for university. As an international citizen who has been immersed in a variety of cultures that have helped shaped my worldview, my experiences supplement me with different perspectives of a user's experience, issues that technology can solve, and ideas and methods to help build the future with tech.</p>
 			<br>
