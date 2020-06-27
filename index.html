@@ -56,14 +56,14 @@
 				<p style="font-family: Poppins">Microscopy/Optics Lab Intern @ <a href="https://www.sabic.com/en"target="_blank">SABIC </a><span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| May 2017</span></p>
 			</div>
 		</section>
-
+		<div style="visibility: hidden; font-size: 1.2rem">Fill</div>
 		<section class="projects">
 			<div class="container">
 				<h2>My Featured Projects.</h2>
 				<ul class="projects-list">
-
-					{% for item in site.categories.projects%}
-						{% if forloop.index < 7 %}
+					{% assign counter = 0 %}
+					{% for item in site.tags.projects%}
+						{% if counter < 7%}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}" style="text-decoration: none;">
 								<div class="img-wrapper">
@@ -73,15 +73,31 @@
 								<h3>{{ item.project.title }}</h3>
 							</a>
 						</li>
+						{% assign counter = counter | plus: 1 %}
 						{% endif %}
-
 					{% endfor %}
+
+					{% if counter < 7 %}
+						{% for item in site.tags.class%}
+							{% if counter < 6%}
+							<li>
+								<a href="{{ item.url | prepend: site.baseurl }}" style="text-decoration: none;">
+									<div class="img-wrapper">
+										<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
+									</div>
+									<span class="h2" style="font-family: Poppins-Light">{{ item.project.type }}</span>
+									<h3>{{ item.project.title }}</h3>
+								</a>
+							</li>
+							{% assign counter = counter | plus: 1 %}
+							{% endif %}
+						{% endfor %}
+					{% endif %}
 				</ul>
 				<br>
 				<h3 style="font-family: Poppins-Light"><a href="projects/" >More Projects. . .</a></h3>
 			</div>
 		</section>
-
 		<section class="bodyCon">
 			<div class="container">
 				<h2>Currently...</h2>

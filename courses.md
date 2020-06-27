@@ -37,7 +37,7 @@ permalink: /courses/
                         <li>MUSICOL 346: <em>History of Music–Western Music 1750s to Present</em></li>
                     </ul>
                 <br>
-                <h2>Fall 2020</h2>
+                <h2>Fall 2019</h2>
                     <ul>
                         <li>EECS 281: <em>Data Structures and Algorithms</em></li>
                         <li><a href="http://www.math.lsa.umich.edu/courses/215/" target="_blank">MATH 215</a>: <em>Multivariable and Vector Calculus</em></li>
@@ -56,7 +56,7 @@ permalink: /courses/
                         <li>ALA 108: <em>STEM Success (<a href="https://lsa.umich.edu/wiserp" target="_blank">WISE</a> program requirement)</em></li>
                     </ul>
                 <br>
-                <h2>Fall 2019</h2>
+                <h2>Fall 2018</h2>
                     <ul>
                         <li>ENGR 101: <em>Intro to Computers and Programming</em></li>
                         <li>CHEM 130, 125 & 126: <em>General Chemistry + Lab</em></li>

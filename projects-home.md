@@ -21,8 +21,8 @@ permalink: /projects/
 		</div>
 	</section> 
 	<section class="projects">
-			<div class="container">
-				<h2>My Projects.</h2>
+		<div class="container">
+			<h2>My Tech Projects.</h2>
 				<ul class="projects-list">
 					{% for item in site.tags.projects%}
 						<li>
@@ -36,10 +36,10 @@ permalink: /projects/
 						</li>
 					{% endfor %}
 				</ul>
-        <br>
-        <h2>My Standard Course Projects.</h2>
+        	<br>
+        	<h2>My Standardized CS Class Projects.</h2>
 				<ul class="projects-list">
-					{% for item in site.tags.class reversed %}
+					{% for item in site.tags.class %}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}" style="text-decoration: none;">
 								<div class="img-wrapper">
@@ -51,8 +51,23 @@ permalink: /projects/
 						</li>
 					{% endfor %}
 				</ul>
-			</div>
-		</section>
+			<br>
+			<h2>My Other Projects.</h2>
+				<ul class="projects-list">
+					{% for item in site.tags.other %}
+						<li>
+							<a href="{{ item.url | prepend: site.baseurl }}" style="text-decoration: none;">
+								<div class="img-wrapper">
+									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
+								</div>
+								<span class="h2" style="font-family: Poppins-Light">{{ item.project.type }}</span>
+								<h3>{{ item.project.title }}</h3>
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+		</div>
+	</section>
 
   </main>
   {% include footer.html %}

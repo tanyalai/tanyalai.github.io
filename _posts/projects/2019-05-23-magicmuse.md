@@ -14,6 +14,7 @@ project:
   url: "https://www.youtube.com/watch?v=ClvJEEwGWv8&feature=youtu.be"
   logo: "/assets/images/projects/magicmuse/mm.jpg"
   tech: "Assembly, Verilog, MATLAB"
+  class: "n"
 
 agency:
   team: "The Backstreet Toys: Tanya Lai, Raymond Liu, Alexandra Stavrakos, Anthony Zhu"
