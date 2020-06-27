@@ -9,6 +9,7 @@ Thumbs.db
 
 # Compilation
 .sass-cache/
+.jekyll-cache/
 _site/
 
 # Logs and db's
