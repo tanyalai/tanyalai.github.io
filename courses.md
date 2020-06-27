@@ -4,7 +4,7 @@ title: Courses
 permalink: /courses/
 ---
 <head>
-	<title>{{ site.author }} / {{ site.courses }}</title>
+	<title>{{ site.author }} / {{ site.course }}</title>
 	<meta name="author" content="{{ site.author }}">
 	<meta name="description" content="{{ page.content | strip_html | strip_newlines }}">
 	<meta name="keywords" content="{{ page.meta.keywords }}">
