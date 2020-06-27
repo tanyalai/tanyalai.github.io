@@ -27,6 +27,7 @@ permalink: /courses/
                         <li>EECS 376: <em>Foundations of Computer Science</em></li>
                         <li><a href="https://cfe.umich.edu/project/intro-to-entrepreneurial-design/" target="_blank">ENTR 390</a>: <em>Intro to Entrepreneurial Design–IoT Alexa Skill Building</em></li>
                         <li>COGSCI 200: <em>Intro to Cognitive Science</em></li>
+                        <li>ENGR 490: <em>Designing Your Engineering Future</em></li>
                     </ul>
                 <br>
                 <h2>Winter 2020</h2>
