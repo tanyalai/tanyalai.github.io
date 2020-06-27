@@ -26,7 +26,7 @@ permalink: /projects/
 				<ul class="projects-list">
 					{% for item in site.tags.projects%}
 						<li>
-							<a href="{{ item.url | prepend: site.baseurl }}">
+							<a href="{{ item.url | prepend: site.baseurl }}" style="text-decoration: none;">
 								<div class="img-wrapper">
 									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
 								</div>
@@ -41,7 +41,7 @@ permalink: /projects/
 				<ul class="projects-list">
 					{% for item in site.tags.class reversed %}
 						<li>
-							<a href="{{ item.url | prepend: site.baseurl }}">
+							<a href="{{ item.url | prepend: site.baseurl }}" style="text-decoration: none;">
 								<div class="img-wrapper">
 									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
 								</div>

@@ -9,12 +9,6 @@
 	<meta name="skills" content="{{ site.skills }}">
 	<meta name="keywords" content="{{ site.keywords }}">
 	{% include head.html %}
-	<style>
-		a:hover {
-  			color: #aaa;
-		}
-
-	</style>
 
 </head>
 <body>
@@ -27,9 +21,9 @@
 				<h2>About me.</h2>
 				<p style="font-family: Poppins">Nice to meet you. My name is <span style="color: #6D98BA">Tanya Lai</span>.</p>
 				<p style="font-family: Poppins-Light;"><br>I am a rising junior studying computer science and engineering at the University of Michigan, Ann Arbor. 
-					You can often catch me as the librarian and a double bassist for the <a href="https://www.michiganpops.org/" style="text-decoration: underline" target="_blank">Michigan Pops Orchestra</a>, 
-					researching in a creative coding lab on a computer audio/music project, working on the software team on a biomedical design project in <a href="http://medlaunch.engin.umich.edu/" style="text-decoration: underline" target="_blank">MedLaunch</a>, 
-					grading projects and exams for <a href="https://eecs183.org/" style="text-decoration: underline" target="_blank">EECS 183</a>, and obssessing over stationery.
+					You can often catch me as the librarian and a double bassist for the <a href="https://www.michiganpops.org/" target="_blank">Michigan Pops Orchestra</a>, 
+					researching in a creative coding lab on a computer audio/music project, working on the software team on a biomedical design project in <a href="http://medlaunch.engin.umich.edu/" target="_blank">MedLaunch</a>, 
+					grading projects and exams for <a href="https://eecs183.org/" target="_blank">EECS 183</a>, and obssessing over stationery.
 				</p>
 			</div>
 		</section>
@@ -37,7 +31,7 @@
 		<section class="bodyCon">
 			<div class="container">
 				<h2>My Resumé.</h2>
-				<p style="font-family: Poppins-Light;"> Download my resumé <a href="https://umich.box.com/s/xxbug4av798sjes9k5dxbeg0my68ry96" style="text-decoration: underline; color: #6D98BA" target="_blank">here</a></p>
+				<p style="font-family: Poppins-Light;"> Download my resumé <a class="light" href="https://umich.box.com/s/xxbug4av798sjes9k5dxbeg0my68ry96" target="_blank">here</a></p>
 			</div>
 		</section>
 
@@ -53,13 +47,13 @@
 		<section class="bodyCon">
 			<div class="container">
 				<h2>My Experience.</h2>
-				<p style="font-family: Poppins">Incoming Software Engineering Intern @ <a href = "https://www.microsoft.com/en-us/" style="text-decoration: underline">Microsoft</a>
+				<p style="font-family: Poppins">Incoming Software Engineering Intern @ <a href = "https://www.microsoft.com/en-us/" target="_blank">Microsoft</a>
 					<p><span style="font-family: Poppins-Light;">(Postponed from Summer 2020 due to COVID)</span></p> 
 					<span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| June 2021 - August 2021</span></p>
-				<p style="font-family: Poppins">Undergraduate Research Assistant in creative coding lab w/ <a href="https://smtd.umich.edu/about/faculty-profiles/anil-camci/" style="text-decoration: underline" target="_blank">Professor Anıl Çamcı</a><span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| November 2019 - Present (Through Summer)</span></p>
-				<p style="font-family: Poppins">Full Stack Developer Intern @ <a href = "https://portal.oculate.co.za/#/app/about-us" style="text-decoration: underline">Oculate </a><span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| July 2019 - August 2019</span></p>
+				<p style="font-family: Poppins">Undergraduate Research Assistant in creative coding lab w/ <a href="https://smtd.umich.edu/about/faculty-profiles/anil-camci/"  target="_blank">Professor Anıl Çamcı</a><span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| November 2019 - Present (Through Summer)</span></p>
+				<p style="font-family: Poppins">Full Stack Developer Intern @ <a href = "https://portal.oculate.co.za/#/app/about-us" target="_blank">Oculate </a><span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| July 2019 - August 2019</span></p>
 				<p style="font-family: Poppins">Undergraduate Research Assistant @ M-InterACT Lab <span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| September 2018 - May 2019</span></p>
-				<p style="font-family: Poppins">Microscopy/Optics Lab Intern @ <a href="https://www.sabic.com/en" style="text-decoration: underline">SABIC </a><span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| May 2017</span></p>
+				<p style="font-family: Poppins">Microscopy/Optics Lab Intern @ <a href="https://www.sabic.com/en"target="_blank">SABIC </a><span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| May 2017</span></p>
 			</div>
 		</section>
 
@@ -71,7 +65,7 @@
 					{% for item in site.categories.projects%}
 						{% if forloop.index < 7 %}
 						<li>
-							<a href="{{ item.url | prepend: site.baseurl }}">
+							<a href="{{ item.url | prepend: site.baseurl }}" style="text-decoration: none;">
 								<div class="img-wrapper">
 									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
 								</div>
@@ -84,7 +78,7 @@
 					{% endfor %}
 				</ul>
 				<br>
-				<h3 style="font-family: Poppins-Light"><a href="projects/" style="text-decoration: underline">More Projects. . .</a></h3>
+				<h3 style="font-family: Poppins-Light"><a href="projects/" >More Projects. . .</a></h3>
 			</div>
 		</section>
 

@@ -85,7 +85,19 @@ p {
 
 a {
 	color: $color-black;
-	text-decoration: none;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #aaa;
+}
+
+a.light:hover{
+	color: #b4d4ed;
+}
+
+a.light {
+	color:  #6D98BA;
 }
 
 ul {
@@ -208,3 +220,5 @@ blockquote {
 pre {
 	margin: 0 0 3rem;
 }
+
+
