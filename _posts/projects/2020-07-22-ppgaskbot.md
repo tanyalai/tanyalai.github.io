@@ -12,7 +12,7 @@ project:
   type: "Discord Bot"
   role: "Developer"
   url: "https://github.com/PPG-Helpers/PPG-Askbot"
-  logo: "/assets/images/projects/ppgaskbot/discord.png"
+  logo: "/assets/images/projects/ppgaskbot/discord-v1.png"
   tech: "JavaScript, Google Apps Script, Google APIs"
   class: "n"
 
@@ -35,6 +35,9 @@ images:
   - image:
     url: "/assets/images/projects/ppgaskbot/question-alt.png"
     alt: "Alternate question submission response"
+  - image:
+    url: "/assets/images/projects/ppgaskbot/script.png"
+    alt: "Google Apps Script bound to form submission"
 ---
 <p>Pops Pro Gamer (PPG) Askbot is an in-development, Discord bot for the Michigan Pops Orchestra Discord channel. Currently, server moderators ask a daily question in a channel to facilitate bonding amongst server members. Askbot automates this process and allows for member input.</p>
 <br>
@@ -43,4 +46,6 @@ images:
 
 <p style="font-size: 1.3rem">Link in title leads to Github repository. This is project is still incomplete.</p>
 
-<div style="font-size: 0.4rem">Icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a></div>2
+<div style="font-size: 0.4rem"><a href="https://iconscout.com/icons/discord" target="_blank">Discord Icon</a> by <a href="https://iconscout.com/contributors/icons8">Icons8</a> on <a href="https://iconscout.com">Iconscout</a></div>
+
+
