@@ -16,12 +16,15 @@ permalink: /courses/
   <main class="content">
         <section class="bodyCon">
             <div class="container">
-                <h2>Online Courses</h2>
+                <h2>Winter 2021 (Upcoming)</h2>
                     <ul>
-                        <li>Coming soon...</li>
+			    <li>EECS 442: <em>Computer Vision</em></li>
+			    <li>EECS 598: <em>Technologies to Optimize Human Learning</em></li>
+			    <li>STATS 412: <em>Intro to Probability and Statistics</em></li>
+			    <li>PHYSICS 240 & 241: <em>General Physics 2 (Electricity & Magnetism) + Lab</em></li>
                     </ul>
                 <br>
-                <h2>Fall 2020 (Upcoming)</h2>
+                <h2>Fall 2020 (Current)</h2>
                     <ul>
                         <li><a href="https://eecs485staff.github.io/eecs485.org/" target="_blank">EECS 485</a>: <em>Web Systems</em></li>
                         <li>EECS 376: <em>Foundations of Computer Science</em></li>
