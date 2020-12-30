@@ -48,11 +48,11 @@
 		<section class="bodyCon">
 			<div class="container">
 				<h2>My Experience.</h2>
-				<p style="font-family: Poppins">Above and Beyond Computer Science Participant @ <a href="https://about.fb.com/" target="_blank">Facebook</a><span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| September 2020 - November 2020</span></p>
+				<p style="font-family: Poppins">Above and Beyond Computer Science Program Participant @ <a href="https://about.fb.com/" target="_blank">Facebook</a><span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| September 2020 - November 2020</span></p>
 				<p style="font-family: Poppins">Software Engineering Intern (Postponed) @ <a href = "https://www.microsoft.com/en-us/" target="_blank">Microsoft</a>
 					<p><span style="font-family: Poppins-Light;">(Postponed from Summer 2020 due to COVID)</span></p> 
 					<span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| June 202X - August 202X</span></p>
-				<p style="font-family: Poppins">Undergraduate Research Assistant in creative coding lab w/ <a href="https://smtd.umich.edu/about/faculty-profiles/anil-camci/"  target="_blank">Professor Anıl Çamcı</a><span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| November 2019 - Present (Through Summer)</span></p>
+				<p style="font-family: Poppins">Undergraduate Research Assistant in creative coding lab w/ <a href="https://smtd.umich.edu/about/faculty-profiles/anil-camci/"  target="_blank">Professor Anıl Çamcı</a><span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| November 2019 - Present (Year-Round)</span></p>
 				<p style="font-family: Poppins">Course Grader for <a href="https://eecs183.org/" target="_blank">EECS 183</a><span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| September 2019 - Present (During School Term)</span></p>
 				<p style="font-family: Poppins">Full Stack Developer Intern @ <a href = "https://portal.oculate.co.za/#/app/about-us" target="_blank">Oculate </a><span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| July 2019 - August 2019</span></p>
 				<p style="font-family: Poppins">Undergraduate Research Assistant @ M-InterACT Lab <span class="h6" style="color:#aaa; font-family: Poppins-Light; text-indent: 1.2em;">| September 2018 - May 2019</span></p>
@@ -66,7 +66,7 @@
 				<ul class="projects-list">
 					{% assign counter = 0 %}
 					{% for item in site.tags.projects%}
-						{% if counter < 7%}
+						{% if counter < 6%}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}" style="text-decoration: none;">
 								<div class="img-wrapper">
@@ -80,9 +80,9 @@
 						{% endif %}
 					{% endfor %}
 
-					{% if counter < 7 %}
+					{% if counter < 6 %}
 						{% for item in site.tags.class%}
-							{% if counter < 6%}
+							{% if counter < 5%}
 							<li>
 								<a href="{{ item.url | prepend: site.baseurl }}" style="text-decoration: none;">
 									<div class="img-wrapper">
@@ -104,7 +104,7 @@
 		<section class="bodyCon">
 			<div class="container">
 				<h2>Currently...</h2>
-				<p style="font-family: Poppins-Light;">Taking classes fully online :( + Working on Inviso!</p>
+				<p style="font-family: Poppins-Light;">Enjoying the holidays + Working on Inviso!</p>
 			</div>
 		</section>
 

@@ -8,12 +8,17 @@
 	{% include head.html %}
 </head>
 <body>
+	{% assign isize = page.images | size %}
 	{% include header.html %}
 	<script src="{{ "/assets/scripts/toggle.js" | prepend: site.baseurl }}"></script>
 	<main class="content">
 		<section class="project">
 			<div class="container">
+				{% if isize > 0 %}
 				<article>
+				{% elsif isize == 0 %}
+				<div>
+				{% endif %}
 
 					<span class="h2">Project Title</span>
 
@@ -42,15 +47,24 @@
 					<span class="h2">Description</span>
 					<span style="font-family: Poppins-Light">{{ page.content }}</span>
 
-
 					<div class="project-meta">
 						<span class="h2">Technologies</span>
 						<p style="font-family: Poppins-Light">{{ page.project.tech }}</p>
 						<span class="h2">Project Dates</span>
 						<p style="font-family: Poppins-Light">{{ page.agency.year }}</p>
+
+						{% if isize == 0 %}
+						<br>
+						{% endif %}
 					</div>
 
+				{% if isize > 0 %}
 				</article>
+				{% elsif isize == 0 %}
+				</div>
+				{% endif %}
+
+				{% if isize > 0 %}
 				<aside>
 					<ul>
 						{% for image in page.images %}
@@ -60,6 +74,7 @@
 						{% endfor %}
 					</ul>
 				</aside>
+				{% endif %}
 			</div>
 		</section>
 		<section class="project-navigation">
