@@ -37,7 +37,7 @@ permalink: /safeentry-qr.gov.sg/
         <header>
             <div class="container-fluid px-0" id="govsg-masthead">
                 <div class="container-lg">
-                    <a id="govsg-link" href="https://www.gov.sg/">
+                    <a id="govsg-link" href="">
                         <img src="https://www.safeentry.gov.sg/assets/main/logos/masthead-logo-2d43fca0c6fae8236c3f2f134b3961e92a20500884b359a8d19eed52435a7943.svg"/>
                         <span class="ml-2" id="govsg-text">A Singapore Government Agency Website</span>
                     </a>
