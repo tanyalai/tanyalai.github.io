@@ -81,29 +81,67 @@ permalink: /safeentry-qr.gov.sg/
                     Check-Out
                 </div>
             </div>
+            <div class="safePass" style="margin-top: 5%">
+                <img src="/assets/safeentry/images/tick.svg" style="position: absolute; width: 20%; height: 20%; left: 40%; top: 6.5%" class="safePass">
+                <div class="safePass" style="margin: 0 auto; width: 75%; font-family: Poppins, sans-serif; border: 0px; border-radius: 15px 15px 0px 0px; padding: 31px 10px 10px 10px; background-color: rgb(33, 176, 113); height: 10%">
+                    <div style="margin: 0 auto; width: 75%; position: absolute;">
+                        <div style="display: inline-block; position: absolute; left: 5%;">
+                            {% include whitelogo.html %}
+                        </div>
+                        <h3 style="display: inline-block; font-weight: 300; color: white; text-align: left; position: absolute; right: 14.7%; font-size: 1.7rem">Pass</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow safePass" style="margin: 0 auto; width: 75%; border: 0px; border-radius: 0px 0px 15px 15px; font-family: Poppins, sans-serif; text-align: center; padding: 15px 30px 20px 30px">
+                <div style="position: relative; top: 40%">
+                    <p class="text-secondary" style="font-weight: 400; font-size: 0.7rem; padding-bottom: 5%">You have successfully checked in on</p>
+                    <p id="dateText" style="font-weight: 600; font-size: 1.06rem;"></p>
+                    <p style="font-weight: 500; font-size: 1.15rem;">THE LAI FAMILY APT.</p>
+                </div>
+            </div>
+            <div class="safePass" style="font-family: Poppins; margin-top: 30px; margin-left: auto; margin-right: auto; text-align: center; width: 75%">
+                <p style="margin-bottom: 2%; font-size: 0.96rem; font-weight: 500">Thank you for keeping the Lais safe!</p>
+                <div style="width: 90%; text-align: center; margin: 0 auto;">
+                    <p class="text-secondary" style="font-weight: 400; font-size: 0.7rem">Screenshot this pass for record and don't forget to check out when you leave.</p>
+                </div>
+            </div>
+            <div class="safePass" style="font-family: Poppins; margin-top: 20px">
+                 <div id="check-out-2" class="shadow-intense" style="margin: 0 auto; width: 45%; text-align: center; border-radius: 30px; padding: 8px 0">
+                    Check-Out
+                </div>
+            </div>
             <div class="shadow contactForm" style="margin: 0 auto; width: 80%; border: 0px; border-radius: 7px; font-family: Poppins, sans-serif; text-align: center; padding: 30px">
                 <div style="position: relative; top: 6%">
                     <p style="font-weight: 600; font-size: 1.15rem; padding-bottom: 3%">THE LAI FAMILY APT.</p>
                     <div id="residentSelection" style="margin: 0 auto;">
                         <div class="formRes" style="margin-right: 7%;">
-                        <p style="margin-left: 7%; margin-bottom: 2%; color: rgb(58, 121, 189);">Residents</p>
-                        <hr style="width:110%; color: #3A79BD; background-color: #3A79BD; height: 2px; border: none; margin-top: 0;">
+                            <p id="res" style="margin-left: 7%; margin-bottom: 2px; color: rgb(58, 121, 189);">Residents</p>
+                            <hr id="line1" style="width:110%; color: #3A79BD; background-color: #3A79BD; height: 2px; border: none; margin-top: 0;">
                         </div>
-                        <p class="formRes text-secondary" style="margin-left: 7%; margin-bottom: 2%;">Non-Residents</p>
+                        <div class="formRes" style="margin-left: 7%">
+                             <p class="text-secondary" id="nonRes" style="margin-left: 0.5rem; margin-bottom: 2px;">Non-Residents</p>
+                            <hr id="line2" style="width:110%; color: #3A79BD; background-color: #3A79BD; height: 2px; border: none; margin-top: 0; display: none">
+                        </div>
                     </div>
                     <div style="margin-top: 10px"></div>
                     <form id="formInput">
-                        <input type="text" class="inputfield" placeholder="Name:" onfocus="this.placeholder = ''" onblur="this.placeholder='Name:'">
+                        <input id="name" type="text" class="inputfield" placeholder="Name:" onfocus="this.placeholder = ''" onblur="this.placeholder='Name:'">
+                        <p id="alertName" style="color: red; display: none; text-align: left; font-size: 0.67rem">* Please provide the requested information</p>
                         <div style="margin-top: 20px"></div>
                     </form>
-                    <p style="text-align: left; font-size: 0.83rem">Remember my particulars</p>
+                    <hr>
                     <div style="text-align: left" id="info">
-                        <p style="font-weight: 500; font-size: 0.9rem; margin-bottom: 1rem">By checking in, you declare that: </p>
-                        <p style="font-weight: 400; font-size: 0.6rem">- You have not had close contact with a confirmed COVID-19 case in the past 14 days</p>
-                        <p style="font-weight: 400; font-size: 0.6rem">- You are not currently under a Quarantine Order or Stay-Home Notice</p>
-                        <p style="font-weight: 400; font-size: 0.6rem">- You do not have any fever or flu-like symptoms</p>
-                        <p style="font-weight: 400; font-size: 0.6rem">- You agree to the terms and consent to the collection/use of your information for future dinner invites</p>
+                        <p style="font-weight: 500; font-size: 0.9rem; margin-bottom: 0.7rem">By checking in, you declare that: </p>
+                        <p style="font-weight: 500; font-size: 0.6rem">- You have not had close contact with a confirmed COVID-19 case in the past 14 days</p>
+                        <p style="font-weight: 500; font-size: 0.6rem">- You are not currently under a Quarantine Order or Stay-Home Notice</p>
+                        <p style="font-weight: 500; font-size: 0.6rem">- You do not have any fever or flu-like symptoms</p>
+                        <p style="font-weight: 500; font-size: 0.6rem">- You agree to the terms and consent to the collection/use of your information for future dinner invites</p>
                     </div>
+                </div> 
+            </div>
+            <div class="contactForm form" style="font-family: Poppins; margin-top: 25px">
+                <div id="check-in-2" class="shadow-intense" style="margin: 0 auto; width: 45%; text-align: center; border: 0px; border-radius: 30px; padding: 10px 0">
+                    Check-In
                 </div>
             </div>
         </div>

@@ -7630,13 +7630,18 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
     color: white;
 }
 
-#check-out {
+#check-in-2 {
+    background-color: #86cdaf;
+    color: white;
+}
+
+#check-out, #check-out-2 {
     background-color: white;
     color: rgb(58, 121, 189);
     border: 2px solid rgb(58, 121, 189);
 }
 
-.contactForm{
+.contactForm, .safePass{
     display: none;
 }
 
@@ -7644,6 +7649,18 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
     display: inline-block;
     font-weight: 400;
     font-size: 0.875rem;
+}
+
+.fade-out{
+    animation: fadeOut ease 5s;
+}
+@keyframes fadeOut {
+    0% {
+        border: 1px solid red;
+    }
+    100% {
+        border: 1px solid #6c757d;
+    }
 }
 
 .inputfield {
