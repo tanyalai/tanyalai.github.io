@@ -53,23 +53,26 @@ permalink: /safeentry-qr.gov.sg/
             </div>
             <div class="container-fluid px-0" id="navbar-container">
                 <div class="navbar navbar-expand-lg container-lg" id="navbar" >
-                    <a class="" style="margin: 0 auto; padding-left: 38px;" href="">
-                        {% include mainlogo.html %}
+                <p class="contactForm text-secondary" id="back" style="font-family: Poppins, sans-serif; position: absolute; font-size: 0.875rem; margin-left: 10%; margin-top: 2%"><- Back</p>
+                    <a class="" style="margin: 0 auto" href="">
+                        <div style="padding-left: 38px;">
+                            {% include mainlogo.html %}
+                        </div>
                     </a>
                 </div>
             </div>
         </header>
         <div class="p-0" id="main">
             <div style="margin-top: 10px"></div>
-            <div class="shadow" style="margin: 0 auto; width: 75%; border: 0px; border-radius: 15px; font-family: Poppins, sans-serif; text-align: center; padding: 30px">
+            <div class="shadow landing" style="margin: 0 auto; width: 75%; border: 0px; border-radius: 15px; font-family: Poppins, sans-serif; text-align: center; padding: 30px">
                 <div style="position: relative; top: 30%">
                     <img id="location" src="{{"/assets/safeentry/images/location.png" | prepend: site.baseurl }} "/>
                     <p style="font-weight: 400; font-size: 1rem; padding-bottom: 3%">You are visiting</p>
                     <p style="font-weight: 600; font-size: 1.15rem;">THE LAI FAMILY APT.</p>
                 </div>
             </div>
-            <div style="margin-top: 40px"></div>
-            <div style="font-family: Poppins">
+            <div class="landing" style="margin-top: 40px"></div>
+            <div class="landing" style="font-family: Poppins">
                 <div id="check-in" class="shadow-intense" style="margin: 0 auto; width: 45%; text-align: center; border: 0px; border-radius: 30px; padding: 10px 0">
                     Check-In
                 </div>
@@ -78,11 +81,37 @@ permalink: /safeentry-qr.gov.sg/
                     Check-Out
                 </div>
             </div>
+            <div class="shadow contactForm" style="margin: 0 auto; width: 80%; border: 0px; border-radius: 7px; font-family: Poppins, sans-serif; text-align: center; padding: 30px">
+                <div style="position: relative; top: 6%">
+                    <p style="font-weight: 600; font-size: 1.15rem; padding-bottom: 3%">THE LAI FAMILY APT.</p>
+                    <div id="residentSelection" style="margin: 0 auto;">
+                        <div class="formRes" style="margin-right: 7%;">
+                        <p style="margin-left: 7%; margin-bottom: 2%; color: rgb(58, 121, 189);">Residents</p>
+                        <hr style="width:110%; color: #3A79BD; background-color: #3A79BD; height: 2px; border: none; margin-top: 0;">
+                        </div>
+                        <p class="formRes text-secondary" style="margin-left: 7%; margin-bottom: 2%;">Non-Residents</p>
+                    </div>
+                    <div style="margin-top: 10px"></div>
+                    <form id="formInput">
+                        <input type="text" class="inputfield" placeholder="Name:" onfocus="this.placeholder = ''" onblur="this.placeholder='Name:'">
+                        <div style="margin-top: 20px"></div>
+                    </form>
+                    <p style="text-align: left; font-size: 0.83rem">Remember my particulars</p>
+                    <div style="text-align: left" id="info">
+                        <p style="font-weight: 500; font-size: 0.9rem; margin-bottom: 1rem">By checking in, you declare that: </p>
+                        <p style="font-weight: 400; font-size: 0.6rem">- You have not had close contact with a confirmed COVID-19 case in the past 14 days</p>
+                        <p style="font-weight: 400; font-size: 0.6rem">- You are not currently under a Quarantine Order or Stay-Home Notice</p>
+                        <p style="font-weight: 400; font-size: 0.6rem">- You do not have any fever or flu-like symptoms</p>
+                        <p style="font-weight: 400; font-size: 0.6rem">- You agree to the terms and consent to the collection/use of your information for future dinner invites</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="{{ "/assets/scripts/safentry.js" | prepend: site.baseurl }}"></script>
 </body>
 </html>

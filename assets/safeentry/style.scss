@@ -7636,6 +7636,31 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
     border: 2px solid rgb(58, 121, 189);
 }
 
+.contactForm{
+    display: none;
+}
+
+.formRes {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.inputfield {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+#info p{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
 .shadow-sm {
     box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075) !important
 }
