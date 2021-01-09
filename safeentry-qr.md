@@ -62,11 +62,21 @@ permalink: /safeentry-qr.gov.sg/
         <div class="p-0" id="main">
             <div style="margin-top: 10px"></div>
             <div class="shadow" style="margin: 0 auto; width: 75%; border: 0px; border-radius: 15px; font-family: Poppins, sans-serif; text-align: center; padding: 30px">
-            <div style="position: relative; top: 30%">
-                <img id="location" src="{{"/assets/safeentry/images/location.png" | prepend: site.baseurl }} "/>
-                <p style="font-weight: 400; font-size: 1rem; padding-bottom: 3%">You are visiting</p>
-                <p style="font-weight: 600; font-size: 1.15rem;">THE LAI FAMILY APT.</p>
+                <div style="position: relative; top: 30%">
+                    <img id="location" src="{{"/assets/safeentry/images/location.png" | prepend: site.baseurl }} "/>
+                    <p style="font-weight: 400; font-size: 1rem; padding-bottom: 3%">You are visiting</p>
+                    <p style="font-weight: 600; font-size: 1.15rem;">THE LAI FAMILY APT.</p>
+                </div>
             </div>
+            <div style="margin-top: 40px"></div>
+            <div style="font-family: Poppins">
+                <div id="check-in" class="shadow-intense" style="margin: 0 auto; width: 45%; text-align: center; border: 0px; border-radius: 30px; padding: 10px 0">
+                    Check-In
+                </div>
+                <div style="margin-top: 20px"></div>
+                <div id="check-out" class="shadow-intense" style="margin: 0 auto; width: 45%; text-align: center; border-radius: 30px; padding: 8px 0">
+                    Check-Out
+                </div>
             </div>
         </div>
     </div>

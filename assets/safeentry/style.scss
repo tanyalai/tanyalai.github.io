@@ -7625,12 +7625,27 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
     margin-bottom: 30px;
 }
 
+#check-in {
+    background-color: rgb(33, 176, 113);
+    color: white;
+}
+
+#check-out {
+    background-color: white;
+    color: rgb(58, 121, 189);
+    border: 2px solid rgb(58, 121, 189);
+}
+
 .shadow-sm {
     box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075) !important
 }
 
 .shadow {
     box-shadow: 0 0.1rem 0.33rem rgba(0,0,0,0.15) !important
+}
+
+.shadow-intense {
+    box-shadow: 0 0.05rem 0.2rem rgba(0,0,0,0.6) !important
 }
 
 .shadow-lg {
