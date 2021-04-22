@@ -24,7 +24,7 @@ permalink: /courses/
 			    <li>LING 441: <em>Intro to Computational Linguistics</em></li>
 			    <li>LING 445: <em>Intro to Machine Learning for Natural Language Processing</em></li>
 			    <li>RCMUSIC 320: <em>Chamber Music</em></li>
-			    <li>COMP 221: <em>Intro to Elementary Composition/em></li>
+			    <li>COMP 221: <em>Intro to Elementary Composition</em></li>
                     </ul>
                 <br>
                 <h2>Winter 2021 (Current)</h2>
