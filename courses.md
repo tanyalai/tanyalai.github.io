@@ -16,7 +16,18 @@ permalink: /courses/
   <main class="content">
         <section class="bodyCon">
             <div class="container">
-                <h2>Winter 2021 (Upcoming)</h2>
+		<h2>Fall 2021 (Upcoming)</h2>
+                    <ul>
+			    <li>EECS 441: <em>Mobile App Development for Entrepreneurs</em></li>
+			    <li>EECS 496: <em>Major Design Experience Professionalism</em></li>
+			    <li>TCHNCLCM 497: <em>Advanced Technical Communication</em></li>
+			    <li>LING 441: <em>Intro to Computational Linguistics</em></li>
+			    <li>LING 445: <em>Intro to Machine Learning for Natural Language Processing</em></li>
+			    <li>RCMUSIC 320: <em>Chamber Music</em></li>
+			    <li>COMP 221: <em>Intro to Elementary Composition/em></li>
+                    </ul>
+                <br>
+                <h2>Winter 2021 (Current)</h2>
                     <ul>
 			    <li>EECS 442: <em>Computer Vision</em></li>
 			    <li>EECS 598: <em>Technologies to Optimize Human Learning</em></li>
@@ -24,7 +35,7 @@ permalink: /courses/
 			    <li>PHYSICS 240 & 241: <em>General Physics 2 (Electricity & Magnetism) + Lab</em></li>
                     </ul>
                 <br>
-                <h2>Fall 2020 (Current)</h2>
+                <h2>Fall 2020</h2>
                     <ul>
                         <li><a href="https://eecs485staff.github.io/eecs485.org/" target="_blank">EECS 485</a>: <em>Web Systems</em></li>
                         <li>EECS 376: <em>Foundations of Computer Science</em></li>
