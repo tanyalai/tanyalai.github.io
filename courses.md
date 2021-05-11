@@ -27,10 +27,10 @@ permalink: /courses/
 			    <li>COMP 221: <em>Intro to Elementary Composition</em></li>
                     </ul>
                 <br>
-                <h2>Winter 2021 (Current)</h2>
+                <h2>Winter 2021</h2>
                     <ul>
-			    <li>EECS 442: <em>Computer Vision</em></li>
-			    <li>EECS 598: <em>Technologies to Optimize Human Learning</em></li>
+			    <li><a href="https://web.eecs.umich.edu/~justincj/teaching/eecs442/WI2021/" target="_blank">EECS 442</a>: <em>Computer Vision</em></li>
+			    <li><a href="https://xuwanghci.medium.com/reflections-on-my-first-teaching-experience-c23da0f7555c" target="_blank">EECS 598</a>: <em>Technologies to Optimize Human Learning</em></li>
 			    <li>STATS 412: <em>Intro to Probability and Statistics</em></li>
 			    <li>PHYSICS 240 & 241: <em>General Physics 2 (Electricity & Magnetism) + Lab</em></li>
                     </ul>
@@ -76,7 +76,7 @@ permalink: /courses/
                         <li>CHEM 130, 125 & 126: <em>General Chemistry + Lab</em></li>
                         <li>ENGR 280: <em>Research Credit for working in M-InterACT Lab</em></li>
                         <li>LING 111: <em>Introduction to Language</em></li>
-                        <li>ALA 107: <em><a href="https://lsa.umich.edu/wiserp" target="_blank">Women in Science and Engineering Residence Program</a> Seminar</em></li>
+                        <li>ALA 107: <em><a href="https://lsa.umich.edu/wiserp" target="_blank">Women in Science and Engineering (WISE) Residence Program</a> Seminar</em></li>
                     </ul>
                 <br>
             </div>
